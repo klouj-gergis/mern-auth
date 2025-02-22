@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { Mail, Loader } from "lucide-react"
-import Input from "../components/input.jsx";
+import Input from "../components/Input.jsx";
 import { useState } from "react"
 import { useAuthStore } from "../store/authStore"
 import toast from "react-hot-toast"

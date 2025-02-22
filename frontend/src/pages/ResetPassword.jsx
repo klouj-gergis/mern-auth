@@ -1,4 +1,4 @@
-import Input from "../components/input.jsx";
+import Input from "../components/Input.jsx";
 import { Lock, Loader } from "lucide-react";
 import { motion } from "framer-motion";
 import { useAuthStore } from "../store/authStore.js";
