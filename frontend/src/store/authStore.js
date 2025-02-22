@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const API_URL = "http://localhost:5000/auth"
+const API_URL = process.env.NODE_ENV === "development" ? "http://localhost:5000/auth" : "/auth";
 
 axios.defaults.withCredentials = true;
 
